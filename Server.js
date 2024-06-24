@@ -13,6 +13,6 @@ app.get("/", function (req, res) {
   res.sendFile(dist_path);
 });
 
-app.listen(5173, () => {
+app.listen(3232, () => {
   console.log("UME Server Started");
 });
